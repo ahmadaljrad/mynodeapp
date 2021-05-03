@@ -4,7 +4,7 @@ const app = express();
 
 
 // Select single post
-app.get('/', (req, res) => {
+app.get('/add', (req, res) => {
     res.send('Post fetched...');
     
 });
